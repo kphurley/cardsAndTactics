@@ -1,0 +1,80 @@
+{
+  "units": {
+    
+    "structures": [
+      
+      {
+        "id": 1,
+        "name": "Spawner",
+        "sphere": "ranger",
+        "movable": false,
+        "move": 0,
+        "moveTurns": 0,
+        "hp": 1,
+        "attack": 0,
+        "attackRange": 0,
+        "defense": 10,
+        "defenseRange": 0,
+        "spritesheetPath": "assets/extra_rpg_tiles.png",
+        "spritewidth": 32,
+        "spriteheight": 32,
+        "spritenum": 859,
+        "spawnRange": 1,
+        "tooltipText": "Can be placed in range of a worker ally.  Allows the player to spawn ranger units.",
+        "x": -1,
+        "y": -1
+      }
+     
+    ],
+    
+    "allies": [
+        
+      {
+        
+        "id": 3,
+        "cost": 3,
+        "name": "Archer of Clare",
+        "sphere": "ranger",
+        "movable": true,
+        "move": 3,
+        "actions": 2,
+        "hp": 2,
+        "attack": 2,
+        "attackRange": 5,
+        "defense": 1,
+        "defenseRange": 4,
+        "spritesheetPath": "assets/ranger_spritesheet.png",
+        "spritewidth": 80,
+        "spriteheight": 58,
+        "spritenum": 859,
+        "tooltipText": "Ranger abilities can be used while Archer of Clare is in play.",
+        "idleFrames": [],
+        "attackFrames": [],
+        "moveFrames": [],
+        "x": 3,
+        "y": 2,
+        "cardPath": "assets/ranger_card_prototype_small.png"
+        
+      }
+      
+    ]
+    
+  },
+  
+  "abilities": [
+    
+    {
+      
+      "id": 5,
+      "name": "Aimed Shot",
+      "sphere": "ranger",
+      "targeted": true,
+      "type": "damage",
+      "value": 4,
+      "range": 8,
+      "uses": 1
+    }
+    
+  ]
+  
+}
